@@ -1,0 +1,62 @@
+body{
+    background-color:dimgrey;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+
+}
+li{
+    display:inline-block;
+    background-color:dimgray;
+    width:100px;
+    height:30px;
+    
+}
+.flex {
+    display:flex;
+    align-items: center;
+ 
+}
+button{
+font-size: 10px ;
+padding:10px,20px;
+margin:40px;
+border: 3px solid red;
+border:none;
+box-shadow:2px 2px 4px 5px blue;
+
+}
+ul li a{
+    padding:20% 40%;
+}
+.main{
+    padding: 200px 10px;
+}
+.nav-main{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    display: flex;
+    justify-content: start;
+    
+}
+.nav-links{
+    display: flex;
+   gap:20px;
+  align-items: center;
+}
+.nav-main{
+    display:flex;
+
+    
+ }
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
